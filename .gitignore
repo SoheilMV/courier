@@ -1,0 +1,92 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.metadata
+*.android/
+*.ios/
+
+# Dependencies & Generated files
+android/.gradle/
+android/app/google-services.json
+android/key.properties
+android/app/debug.keystore
+android/app/src/profile/keystore.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+web/flutter/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~  
+.nfs*
+
+# Log / Debug
+*.log
+*.lock
+*.pyc
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# Build Outputs
+*.apk
+*.aab
+*.ipa
+*.so
+*.o
+*.dylib
+
+# Coverage / Testing
+coverage/
+coverage.lcov
+test-results/
+lcov-report/
+*.profdata
+*.gcda
+*.gcno
+
+# CI/CD (GitHub Actions, Firebase, Codemagic, etc.)
+.github/
+.firebase/
+codemagic.yaml
+
+# Private Keys & Sensitive Data
+*.jks
+*.p8
+*.p12
+*.pem
+*.key
+*.crt
+*.csr
